@@ -126,4 +126,4 @@ async def on_ready():
     print("Bot is ready!")
 
 client.loop.create_task(check_for_updates())
-client.run(NzEyMjA2NjQ5Mjk2OTQ1MTYz.XsOMZA.Er836KJaQ25HKoTXDQnLQJBROYE)
+client.run("NzE3NzE1NjAyNzc2Nzg0OTA2.XtfNrg.UVCK0MNzxtCOrtdjUr7BoJwwUgQ")
