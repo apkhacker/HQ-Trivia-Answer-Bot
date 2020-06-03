@@ -24,7 +24,7 @@ def  init():
     global seconds_elapsed
 
 bot_token = 'NzE3NzE1NjAyNzc2Nzg0OTA2.XtfNrg.UVCK0MNzxtCOrtdjUr7BoJwwUgQ'
-self_bot_token = 'NzEyMjA2NjQ5Mjk2OTQ1MTYz.XsOMZA.Er836KJaQ25HKoTXDQnLQJBROYE'
+self_bot_token = 'NzEyMjA2NjQ5Mjk2OTQ1MTYz.XtfPsQ.aYAbmT5CL3it7yik9n8IUgDk40I'
 
 message = None
 embed = None
@@ -34,7 +34,7 @@ embed_best = None
 output_channel = discord.Object(id='717760593637015632')
 
 input_hq_private  = [
-    "712206649296945163",
+    "717760593637015632",
     "459842150323060736",
     "580198028950896640",
 	    "513818250652680213",
@@ -56,9 +56,9 @@ input_hq_private  = [
     "559442345674670082", #answers2
     '577486564402397194' #trivia-answers
 ]
-input_hq_public = ['712206649296945163']
-command_channel = '712206649296945163' #trivia-answers
-admin_chat = '712206649296945163' # answers2
+input_hq_public = ['717760593637015632']
+command_channel = '717760593637015632' #trivia-answers
+admin_chat = '717760593637015632' # answers2
 
 game_in_session = False
 counter_public_1 = 0
