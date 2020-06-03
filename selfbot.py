@@ -140,6 +140,15 @@ async def second_counter():
             data.game_in_session = False
             reset()
             update_data()
-
+            
+async def my_background_task():
+    await client.wait_until_ready()
+    while not client.is_closed:
+        channel = client.get.channel("712206649296945163")
+        messages = ('!dcplay')
+        await client.send_message(channel, message)
+        print("Sent The Command")
+        await asyncio.sleep(3710)
+        
 client.loop.create_task(second_counter())
 client.run(data.self_bot_token, bot=False)
