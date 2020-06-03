@@ -144,7 +144,7 @@ async def second_counter():
 async def my_background_task():
     await client.wait_until_ready()
     while not client.is_closed:
-        channel = client.get.channel("712206649296945163")
+        channel = client.get.channel("717760593637015632")
         messages = ('!dcplay')
         await client.send_message(channel, message)
         print("Sent The Command")
