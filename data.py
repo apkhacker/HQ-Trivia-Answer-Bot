@@ -23,8 +23,8 @@ def  init():
     global weight_time
     global seconds_elapsed
 
-bot_token = 'NzE3NzE1NjAyNzc2Nzg0OTA2.XtfNrg.UVCK0MNzxtCOrtdjUr7BoJwwUgQ'
-self_bot_token = 'NzEyMjA2NjQ5Mjk2OTQ1MTYz.XtfPsQ.aYAbmT5CL3it7yik9n8IUgDk40I'
+bot_token = 'NzE3NzE1NjAyNzc2Nzg0OTA2.XteXPg.wawnMm_SBwKw1l7l6mnop2o5FVQ'
+self_bot_token = 'NzEyMjA2NjQ5Mjk2OTQ1MTYz.XtfXvQ.WiCvucedpFoL3q4zwn_QpUN4v_0'
 
 message = None
 embed = None
